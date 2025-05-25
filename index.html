@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dobren Dragojević</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+  </head>
+
+  <body class="page">
+    <div class="page__container">
+      <div class="page__wrapper">
+        <!-- HEADER -->
+        <header class="header">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#">About</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#articles">Articles</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#projects">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="main">
+          <div class="main__profile">
+            <div class="main__image">
+              <img
+                src="https://avatars.githubusercontent.com/u/100283771?v=4"
+                alt="Profile picture of Dobren Dragojević"
+              />
+            </div>
+            <div class="main__content" id="about">
+              <h1 class="main__title">
+                Software <span class="main__title--highlight">engineer</span>
+              </h1>
+              <p class="main__description">
+                I'm Dobren, a <b>17-year-old</b> software engineer driven by a
+                lifelong passion for technology. I'm currently in my second year
+                of studying web design, combining formal education with years of
+                self-taught learning and hands-on building. This blend has given
+                me deep experience and maturity far beyond my age. I've launched
+                projects that gained real traction, proving my ability to create
+                impactful solutions. While my main focus is software
+                engineering, I’m also deeply interested in AI, machine learning,
+                and cybersecurity. I don’t just use technology—I grow with it.
+              </p>
+              <div class="main__social">
+                <a
+                  class="main__social-link"
+                  href="https://www.instagram.com/ddobren_"
+                  aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="main__social-link"
+                  href="https://github.com/ddobren"
+                  aria-label="GitHub"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  class="main__social-link"
+                  href="https://www.linkedin.com/in/ddobren/"
+                  aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <!-- ARTICLES SECTION -->
+        <section class="articles" id="articles">
+          <div class="articles__container">
+            <div class="articles__header">
+              <h2 class="articles__title">
+                Writing about building systems, exploring AI, and securing the
+                web.
+              </h2>
+              <p class="articles__description">
+                Long-form reflections on backend architecture, machine learning,
+                ethical hacking, and beyond.
+              </p>
+            </div>
+
+            <div class="articles__list">
+              <article class="articles__item">
+                <time class="articles__date">May 20, 2025</time>
+                <h3 class="articles__item-title">
+                  Distributed systems in Golang
+                </h3>
+                <p class="articles__item-description">
+                  A deep technical look at building distributed systems in Go,
+                  focusing on CAP theorem trade-offs, inter-service
+                  communication patterns, distributed state management, and
+                  performance optimization techniques.
+                </p>
+                <a href="#" onclick="soon()" class="articles__link">
+                  Read article
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects" id="projects">
+          <div class="projects__container">
+            <div class="projects__header">
+              <h2 class="projects__title">Things I've made or working on.</h2>
+              <p class="projects__description">
+                I've worked on tons of little projects over the years, but these
+                are the ones I'm most proud of. Many of them are open-source, so
+                if you see something that piques your interest, check out the
+                code and contribute if you have ideas for how it can be
+                improved.
+              </p>
+            </div>
+
+            <div class="projects__grid">
+              <div class="projects__card">
+                <div class="projects__image">
+                  <img src="css/img/edf.png" alt="Eduformacije logo" />
+                </div>
+                <h3 class="projects__card-title">Eduformacije</h3>
+                <p class="projects__card-description">
+                  Eduformacije is an AI-driven platform I created to assist
+                  Croatian students in selecting suitable high schools. It
+                  provides personalized recommendations based on user interests
+                  and offers comprehensive information on schools and programs.
+                </p>
+                <a href="http://eduformacije.com/" class="projects__card-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  eduformacije.com
+                </a>
+              </div>
+
+              <div class="projects__card">
+                <div class="projects__image">
+                  <img src="css/img/edp.png" alt="e-Dnevnik Plus logo" />
+                </div>
+                <h3 class="projects__card-title">e-Dnevnik Plus</h3>
+                <p class="projects__card-description">
+                  e-Dnevnik Plus is an open-source browser extension for
+                  Croatia's national e-Dnevnik system,
+                  <b>initially developed by my friend.</b> I actively contribute
+                  to its development.
+                </p>
+                <a href="https://ednevnik.plus/" class="projects__card-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  ednevnik.plus
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="footer__container">
+            <p class="footer__text">
+              © 2025 Dobren Dragojević. All rights reserved.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
