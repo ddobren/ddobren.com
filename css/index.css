@@ -537,6 +537,7 @@ body {
     }
     
     .main__description {
+        text-align: left;
         font-size: 1rem;
         margin: 0 auto 2rem;
     }
