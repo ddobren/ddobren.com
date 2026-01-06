@@ -3,7 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dobren Dragojević</title>
+    <title>Dobren Dragojević | Software engineer</title>
+    <meta
+      name="description"
+      content="Dobren Dragojević is a 17-year-old software engineer focused on building impactful products across web, AI, and security."
+    />
+    <meta name="author" content="Dobren Dragojević" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dobren Dragojević | Software engineer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Dobren Dragojević: projects, writing, and experiments in software engineering, AI, and cybersecurity."
+    />
+    <meta property="og:url" content="https://ddobren.com/" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/100283771?v=4" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dobren Dragojević | Software engineer" />
+    <meta
+      name="twitter:description"
+      content="Projects and writing by Dobren Dragojević across backend, AI, and security."
+    />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/100283771?v=4" />
+    <link rel="canonical" href="https://ddobren.com/" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,173 +47,164 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dobren Dragojević",
+        "description": "17-year-old software engineer building products across web, AI, and security.",
+        "url": "https://ddobren.com/",
+        "image": "https://avatars.githubusercontent.com/u/100283771?v=4",
+        "sameAs": [
+          "https://github.com/ddobren",
+          "https://www.linkedin.com/in/ddobren/",
+          "https://www.instagram.com/ddobren_"
+        ],
+        "jobTitle": "Software engineer"
+      }
+    </script>
     <script src="js/index.js"></script>
   </head>
 
   <body class="page">
+    <div class="page__bg"></div>
+    <div class="page__grid"></div>
     <div class="page__container">
-      <div class="page__wrapper">
-        <!-- HEADER -->
-        <header class="header">
-          <nav class="header__nav">
-            <ul class="header__list">
-              <li class="header__item">
-                <a class="header__link" href="#">About</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#articles">Articles</a>
-              </li>
-              <li class="header__item">
-                <a class="header__link" href="#projects">Projects</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+      <header class="header">
+        <nav class="header__nav">
+          <a class="brand" href="#about">Dobren Dragojević</a>
+          <ul class="header__list">
+            <li><a class="header__link" href="#about">About</a></li>
+            <li><a class="header__link" href="#projects">Projects</a></li>
+            <li><a class="header__link" href="#articles">Articles</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <!-- MAIN -->
-        <main class="main">
-          <div class="main__profile">
-            <div class="main__image">
-              <img
-                src="https://avatars.githubusercontent.com/u/100283771?v=4"
-                alt="Profile picture of Dobren Dragojević"
-              />
+      <main class="main">
+        <section class="hero" id="about">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Software <span class="hero__title--highlight">engineer</span>
+            </h1>
+            <p class="hero__description">
+              I'm Dobren, a <b>17-year-old</b> software engineer driven by a lifelong passion for
+              technology. I'm currently in my second year of studying web design, combining formal
+              education with years of self-taught learning and hands-on building. This blend has
+              given me deep experience and maturity far beyond my age. I've launched projects that
+              gained real traction, proving my ability to create impactful solutions. While my main
+              focus is software engineering, I’m also deeply interested in AI, machine learning,
+              and cybersecurity. I don’t just use technology—I grow with it.
+            </p>
+            <div class="hero__actions">
+              <a
+                class="button button--ghost"
+                href="https://www.instagram.com/ddobren_"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+                Instagram
+              </a>
+              <a
+                class="button button--ghost"
+                href="https://github.com/ddobren"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+                GitHub
+              </a>
+              <a
+                class="button button--ghost"
+                href="https://www.linkedin.com/in/ddobren/"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+              </a>
             </div>
-            <div class="main__content" id="about">
-              <h1 class="main__title">
-                Software <span class="main__title--highlight">engineer</span>
-              </h1>
-              <p class="main__description">
-                I'm Dobren, a <b>17-year-old</b> software engineer driven by a
-                lifelong passion for technology. I'm currently in my second year
-                of studying web design, combining formal education with years of
-                self-taught learning and hands-on building. This blend has given
-                me deep experience and maturity far beyond my age. I've launched
-                projects that gained real traction, proving my ability to create
-                impactful solutions. While my main focus is software
-                engineering, I’m also deeply interested in AI, machine learning,
-                and cybersecurity. I don’t just use technology—I grow with it.
-              </p>
-              <div class="main__social">
-                <a
-                  class="main__social-link"
-                  href="https://www.instagram.com/ddobren_"
-                  aria-label="Instagram"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a
-                  class="main__social-link"
-                  href="https://github.com/ddobren"
-                  aria-label="GitHub"
-                  ><i class="fab fa-github"></i
-                ></a>
-                <a
-                  class="main__social-link"
-                  href="https://www.linkedin.com/in/ddobren/"
-                  aria-label="LinkedIn"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
+          </div>
+          <div class="hero__aside">
+            <div class="profile-card">
+              <div class="profile-card__image">
+                <img
+                  src="https://avatars.githubusercontent.com/u/100283771?v=4"
+                  alt="Profile picture of Dobren Dragojević"
+                />
               </div>
             </div>
           </div>
-        </main>
+        </section>
 
-        <!-- ARTICLES SECTION -->
-        <section class="articles" id="articles">
-          <div class="articles__container">
-            <div class="articles__header">
-              <h2 class="articles__title">
-                Writing about building systems, exploring AI, and securing the
-                web.
-              </h2>
-              <p class="articles__description">
-                Long-form reflections on backend architecture, machine learning,
-                ethical hacking, and beyond.
-              </p>
-            </div>
-
-            <div class="articles__list">
-              <article class="articles__item">
-                <time class="articles__date">May 20, 2025</time>
-                <h3 class="articles__item-title">
-                  Distributed systems in Golang
-                </h3>
+        <section class="section articles" id="articles">
+          <div class="section__header">
+            <h2>Writing about building systems, exploring AI, and securing the web.</h2>
+            <p>Long-form reflections on backend architecture, machine learning, ethical hacking, and beyond.</p>
+          </div>
+          <div class="articles__list">
+            <article class="articles__item">
+              <time class="articles__date">May 20, 2025</time>
+              <div>
+                <h3 class="articles__item-title">Distributed systems in Golang</h3>
                 <p class="articles__item-description">
-                  A deep technical look at building distributed systems in Go,
-                  focusing on CAP theorem trade-offs, inter-service
-                  communication patterns, distributed state management, and
+                  A deep technical look at building distributed systems in Go, focusing on CAP theorem
+                  trade-offs, inter-service communication patterns, distributed state management, and
                   performance optimization techniques.
                 </p>
-                <a href="#" onclick="soon()" class="articles__link">
-                  Read article
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </article>
-            </div>
+              </div>
+              <a href="#" class="articles__link js-soon">
+                Read article
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </article>
           </div>
         </section>
 
-        <!-- PROJECTS SECTION -->
-        <section class="projects" id="projects">
-          <div class="projects__container">
-            <div class="projects__header">
-              <h2 class="projects__title">Things I've made or working on.</h2>
-              <p class="projects__description">
-                I've worked on tons of little projects over the years, but these
-                are the ones I'm most proud of. Many of them are open-source, so
-                if you see something that piques your interest, check out the
-                code and contribute if you have ideas for how it can be
-                improved.
-              </p>
-            </div>
-
-            <div class="projects__grid">
-              <div class="projects__card">
-                <div class="projects__image">
-                  <img src="css/img/edf.png" alt="Eduformacije logo" />
-                </div>
-                <h3 class="projects__card-title">Eduformacije</h3>
-                <p class="projects__card-description">
-                  Eduformacije is an AI-driven platform I created to assist
-                  Croatian students in selecting suitable high schools. It
-                  provides personalized recommendations based on user interests
-                  and offers comprehensive information on schools and programs.
-                </p>
-                <a href="http://eduformacije.com/" class="projects__card-link">
-                  <i class="fas fa-external-link-alt"></i>
-                  eduformacije.com
-                </a>
-              </div>
-
-              <div class="projects__card">
-                <div class="projects__image">
-                  <img src="css/img/edp.png" alt="e-Dnevnik Plus logo" />
-                </div>
-                <h3 class="projects__card-title">e-Dnevnik Plus</h3>
-                <p class="projects__card-description">
-                  e-Dnevnik Plus is an open-source browser extension for
-                  Croatia's national e-Dnevnik system,
-                  <b>initially developed by my friend.</b> I actively contribute
-                  to its development.
-                </p>
-                <a href="https://ednevnik.plus/" class="projects__card-link">
-                  <i class="fas fa-external-link-alt"></i>
-                  ednevnik.plus
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- FOOTER -->
-        <footer class="footer">
-          <div class="footer__container">
-            <p class="footer__text">
-              © 2025 Dobren Dragojević. All rights reserved.
+        <section class="section projects" id="projects">
+          <div class="section__header">
+            <h2>Things I've made or working on.</h2>
+            <p>
+              I've worked on tons of little projects over the years, but these are the ones I'm most proud of.
+              Many of them are open-source, so if you see something that piques your interest, check out the
+              code and contribute if you have ideas for how it can be improved.
             </p>
           </div>
-        </footer>
-      </div>
+          <div class="projects__grid">
+            <article class="projects__card">
+              <div class="projects__image">
+                <img src="css/img/edf.png" alt="Eduformacije logo" />
+              </div>
+              <h3 class="projects__card-title">Eduformacije</h3>
+              <p class="projects__card-description">
+                Eduformacije is an AI-driven platform I created to assist Croatian students in selecting
+                suitable high schools. It provides personalized recommendations based on user interests and
+                offers comprehensive information on schools and programs.
+              </p>
+              <a href="http://eduformacije.com/" class="projects__card-link">
+                eduformacije.com
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </article>
+            <article class="projects__card">
+              <div class="projects__image">
+                <img src="css/img/edp.png" alt="e-Dnevnik Plus logo" />
+              </div>
+              <h3 class="projects__card-title">e-Dnevnik Plus</h3>
+              <p class="projects__card-description">
+                e-Dnevnik Plus is an open-source browser extension for Croatia's national e-Dnevnik system,
+                <b>initially developed by my friend.</b> I actively contribute to its development.
+              </p>
+              <a href="https://ednevnik.plus/" class="projects__card-link">
+                ednevnik.plus
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__text">© 2026 Dobren Dragojević. Crafted with care.</p>
+      </footer>
     </div>
   </body>
 </html>
